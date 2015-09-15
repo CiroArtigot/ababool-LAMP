@@ -1,76 +1,12 @@
 
 
-   Hecho
-    
-    ok Check Bootstrap
-    ok favicon
-    ok canonical???
-    ok titles.....
-    ok next 
-    ok Navegador 
-    ok Nevegadores (más de una posibilidad de navegador)
-    ok TouchSwipe-Jquery-Plugin https://github.com/mattbryson
-    ok paes that won't be friendly URLs.... desactivate them!
-    ok each page must have a default transition in the page configuration
-    ok Page effects (fade in and others check option)
-    ok Check top nav
-    ok params en plugins
-    ok hide navigator on page out
-    ok mejorar css navegadores
-    ok check container and row bootstrap
-    ok Modals
-	ok Ajax form
-    ok Map
-	ok cambiar parametros generales al plugin theme
-	ok retarded pages load
-	ok preloader for pages on petition 
-   
-   Pendientes
-   
-   
-    * photo gallerie  !!!!!!!!!!!!!!
-    * Foooter >>>>>>>>>>>>>>>>>>>>>>>> a new module
-    * Preolader
+
+    Ababool 1.0.0.
+
+    Next features
+
 	* Key navigation
 	* New navigator
 	* Automatic web map for SEO
 	* Object effects (delay and transition)
-	* menu module
-	
-    
-   
-   Próxima versión:
-   
-    * Scroll down (apareciendo cosas);
-	
-	
-	tags.....
-	buscador vía tag....
-    mapa web tag
-	search field
-	c.
-
-   
-
-   
-
-   
-   
-   
-
-   
-   
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   
-    
-    
+	* Scroll down parallex effect
