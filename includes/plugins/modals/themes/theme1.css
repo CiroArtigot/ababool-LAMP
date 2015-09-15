@@ -1,0 +1,32 @@
+	
+	
+	.theme-1 .md-content{
+		background-color:#FFFFFF;
+		background-repeat:repeat;
+	}
+	
+	.overlay-theme-1 {
+		background-color: #e2e2e2;
+		opacity: 0.9;
+		filter: alpha(opacity = 90);
+	}
+
+	.theme-1 .md-content {
+		background-color: #fff;
+		color:#333;
+	}
+	.theme-1 .md-content-content a{
+		text-decoration: underline;
+		color:#006699;
+	}
+	.theme-1 .md-content-content a:hover{
+		text-decoration: none;
+		color:#000;
+	}
+	.theme-1 .md-content h3 {
+		background-color: #c5cbcc;
+		color:#000;
+	}
+	.theme-1 .md-buttons {
+		color:#000;
+	}

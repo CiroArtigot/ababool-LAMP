@@ -1,0 +1,27 @@
+/* Effect 4: Newspaper */
+
+
+
+.md-effectoff-4.md-modal.md-show-out {
+
+	-webkit-animation: aixeena2-4 .5s forwards ease;
+	-moz-animation: aixeena2-4 .5s forwards ease;
+	animation: aixeena2-4 .5s forwards ease;
+	opacity: 0;
+
+}
+
+@-webkit-keyframes aixeena2-4 {
+	0% { -webkit-transform: scale(1) rotate(0deg); opacity: 1;  }
+	100% { -webkit-transform: scale(0) rotate(720deg); opacity: 0;   }
+}
+@-moz-keyframes aixeena2-4 {
+	0% { -moz-transform:  scale(1) rotate(0deg); opacity: 1;  }
+	100% { -moz-transform:  scale(0) rotate(720deg); opacity:0; }
+}
+@keyframes aixeena2-4 {
+	0% { transform:  scale(1) rotate(0deg); opacity: 1;  }
+	100% { transform:  scale(0) rotate(720deg); opacity: 0; }
+}
+
+

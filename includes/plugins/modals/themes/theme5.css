@@ -1,0 +1,45 @@
+	
+	
+	.theme-5 .md-content{
+		background-color:#FFFFFF;
+		color:#333;
+		border-radius: 0;
+		border:#666666 5px solid;
+		background-image:url(../../images/services2.jpg);
+		background-repeat:no-repeat;
+		background-position:center center;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+	}
+	.theme-5 .md-buttons {
+		border-radius:0;
+	}
+	.theme-5 .md-content h3 {
+		border-radius: 0;
+	}
+	
+	
+	.overlay-theme-5 {
+		background-color: #000;
+		opacity: 0.5;
+		filter: alpha(opacity = 50);
+	}
+
+	.theme-5 .md-content-content a{
+		text-decoration: underline;
+		color:#006699;
+	}
+	.theme-5 .md-content-content a:hover{
+		text-decoration: none;
+		color:red;
+	}
+	.theme-5 .md-content h3 {
+		background-color: transparent;
+		color:#000;
+	}
+	.theme-5 .md-buttons {
+		background-color: transparent;
+		color:#000;
+	}

@@ -1,0 +1,24 @@
+/* Effect 2: Slide from the right */
+
+.md-effect-2.md-modal.md-show {
+	-webkit-animation: aixeena1-2 .5s forwards ease;
+	-moz-animation: aixeena1-2 .5s forwards ease;
+	animation: aixeena1-2 .5s forwards ease;
+}
+
+@-webkit-keyframes aixeena1-2 {
+	0% { -webkit-transform: translateX(140%); opacity: 0;  }
+	100% { -webkit-transform: translateX(0); opacity: 1;   }
+}
+@-moz-keyframes aixeena1-2 {
+	0% { -moz-transform:  translateX(140%); opacity: 0;  }
+	100% { -moz-transform:  translateX(0); opacity: 1; }
+}
+@keyframes aixeena1-2 {
+	0% { transform:  translateX(140%); opacity: 0;  }
+	100% { transform:  translateX(0); opacity: 1; }
+}
+
+
+
+

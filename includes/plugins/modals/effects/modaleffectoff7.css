@@ -1,0 +1,25 @@
+
+.premodal-md-effectoff-7{
+
+}
+
+.md-effectoff-7.md-modal.md-show-out {
+	-webkit-animation: aixeena2-7 .5s forwards ease-in;
+	-moz-animation: aixeena2-7 .5s forwards ease-in;
+	animation: aixeena2-7 .5s forwards ease-in;
+	opacity: 0;
+}
+
+@-webkit-keyframes aixeena2-7 {
+	0% { -webkit-transform: translate(0%) translateZ(0) rotate(0deg); opacity: 1; }
+	100% { -webkit-transform:  translateY(-200%) rotate(-130deg); opacity: 0; }
+}
+@-moz-keyframes aixeena2-7 {
+	0% { -moz-transform:   translateY(-200%) rotate(130deg); opacity: 0; }
+	100% { -moz-transform:   translateY(-200%) rotate(-130deg); opacity: 0; }
+}
+@keyframes aixeena2-7 {
+	0% { transform: translate(0%) translateZ(0) rotate(0deg); opacity: 1; }
+	100% { transform: translateY(-200%) rotate(-130deg); opacity: 0; }
+	
+}

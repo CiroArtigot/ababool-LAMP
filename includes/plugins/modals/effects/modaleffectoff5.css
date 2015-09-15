@@ -1,0 +1,26 @@
+/* Effect 5: fall off */
+
+.premodal-md-effectoff-5{
+
+}
+
+.md-effectoff-5.md-modal.md-show-out {
+	-webkit-animation: aixeena2-5 .7s forwards ease-in;
+	-moz-animation: aixeena2-5 .7s forwards ease-in;
+	animation: aixeena2-5 .7s forwards ease-in;
+	opacity: 0;
+}
+
+@-webkit-keyframes aixeena2-5 {
+	0% { -webkit-transform: translateY(0px) rotateX(0deg) scale(1); opacity: 1; }
+	100% { -webkit-transform: translateY(600px) rotateX(20deg) scale(1); opacity: 0; }
+}
+@-moz-keyframes aixeena2-5 {
+	0% { -moz-transform: translateY(0px) rotateX(0deg) scale(1); opacity: 1; }
+	100% { -moz-transform: translateY(600px) rotateX(20deg) scale(1); opacity: 0;  }
+}
+@keyframes aixeena2-5 {
+	0% { transform: translateY(0px) rotateX(0deg) scale(1); opacity: 1; }
+	100% { transform: translateY(600px) rotateX(20deg) scale(1); opacity: 0;  }
+}
+

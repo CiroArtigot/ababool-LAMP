@@ -1,0 +1,41 @@
+/* Effect 5: fall */
+
+.premodal-md-effect-5{
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	z-index: 9999;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.md-effect-5.md-modal.md-show {
+	
+	-webkit-animation: aixeena1-5  0.5s  forwards ease-out;
+	-moz-animation: aixeena1-5   0.5s  forwards ease-out;
+	animation: aixeena1-5   0.5s  forwards ease-out;
+}
+
+@-webkit-keyframes aixeena1-5 {
+	0% { -webkit-transform:  translateZ(1600px) rotateX(40deg) scale(0); opacity: 0; }
+	100% { -webkit-transform: translateZ(0px) rotateX(0deg) scale(1); opacity: 1; }
+}
+@-moz-keyframes aixeena1-5 {
+	0% { -moz-transform:   translateZ(1600px) rotateX(40deg) scale(0); opacity: 0; }
+	100% { -moz-transform:translateZ(0px) rotateX(0deg) scale(1); opacity: 1; }
+}
+@keyframes aixeena1-5 {
+	0% { transform: translateZ(1600px) rotateX(40deg) scale(0); opacity: 0; }
+	100% { transform: translateZ(0px) rotateX(0deg) scale(1); opacity: 1; }
+}
+
+
+
+
+
+
+

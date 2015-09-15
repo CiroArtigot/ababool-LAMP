@@ -1,0 +1,39 @@
+	
+	
+	.theme-11 .md-content{
+		background-color:#fda203;
+		color:#fff;
+		border-radius: 12px;
+		border:0;
+		
+	}
+	.theme-11 .md-buttons {
+		border-radius:0 0 12px 12px;
+	}
+	.theme-11 .md-content h3 {
+		border-radius: 12px 12px 0 0;
+	}
+	
+	
+	.overlay-theme-11 {
+		background-color:#f8ae10;
+		opacity: 0.6;
+		filter: alpha(opacity = 60);
+	}
+
+	.theme-11 .md-content-content a{
+		text-decoration: underline;
+		color:#fff;
+	}
+	.theme-11 .md-content-content a:hover{
+		text-decoration: none;
+		color:#e2e2e2;
+	}
+	.theme-11 .md-content h3 {
+		background-color: transparent;
+		color:#fff;
+	}
+	.theme-11 .md-buttons {
+		background-color: transparent;
+		color:#fff;
+	}

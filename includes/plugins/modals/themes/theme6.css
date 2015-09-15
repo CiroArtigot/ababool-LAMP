@@ -1,0 +1,48 @@
+	
+	
+	.theme-6 .md-content{
+		background-color:#FFFFFF;
+		color:#333;
+		border-radius: 0;
+		border:#fff 1px solid;
+		opacity: 0.8;
+		filter: alpha(opacity = 80);
+		
+	}
+	.theme-6 .md-buttons {
+		border-radius:0;
+	}
+	.theme-6 .md-content h3 {
+		border-radius: 0;
+	}
+	
+	
+	.overlay-theme-6 {
+		background-image:url(../../images/back03.jpg);
+		background-repeat:no-repeat;
+		background-position:center center;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  
+		opacity: 1;
+		filter: alpha(opacity = 100);
+	}
+
+	.theme-6 .md-content-content a{
+		text-decoration: underline;
+		color:#006699;
+	}
+	.theme-6 .md-content-content a:hover{
+		text-decoration: none;
+		color:red;
+	}
+	.theme-6 .md-content h3 {
+		background-color: transparent;
+		color:#000;
+	}
+	.theme-6 .md-buttons {
+		background-color: transparent;
+		color:#000;
+	}

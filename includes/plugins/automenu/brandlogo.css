@@ -1,0 +1,15 @@
+
+.brandimage{
+	background-image:url(../img/brandlogo.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	overflow:hidden;
+    text-indent:-9999px;
+    white-space:nowrap;
+	width:127px;
+	height:25px;
+	background-color:transparent;
+	display:block;
+	margin-top: 8px;
+	margin-left: -8px;
+}

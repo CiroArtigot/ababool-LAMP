@@ -1,0 +1,30 @@
+/* Effect 14:  3D Rotate from bottom */
+
+.premodal-md-effect-15{
+
+}
+
+.md-effect-15.md-modal.md-show {
+	-webkit-animation: aixeena1-15 2s;
+	-moz-animation: aixeena1-15 2s;
+	animation: aixeena1-15 2s;
+
+}
+
+@-webkit-keyframes aixeena1-15 {
+	0% { -webkit-transform:  rotate(3000deg) scale(0) translateZ(-250px) rotateY(89deg); opacity: 0; }
+	50% { -webkit-transform:  rotate(6000deg) scale(3) translateZ(-450px) rotateY(189deg); opacity: 0.5; }
+	100% { -webkit-transform: rotate(0deg) scale(1) translateZ(0px) rotateY(0deg); opacity: 1;}
+}
+@-moz-keyframes aixeena1-15 {
+	100% { -moz-transform: translateX(0%) rotateX(0deg);; opacity: 1; }
+}
+@keyframes aixeena1-15 {
+	100% { transform: translateX(0%) rotateX(0deg); opacity: 1; }
+}
+
+
+
+
+
+

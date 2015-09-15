@@ -1,0 +1,24 @@
+/* Effect 11: Super scaled */
+
+.md-effect-11.md-modal.md-show {
+
+	-webkit-animation: aixeena1-11 .5s forwards ease;
+	-moz-animation: aixeena1-11 .5s forwards ease;
+	animation: aixeena1-11 .5s forwards ease;
+
+}
+
+
+@-webkit-keyframes aixeena1-11 {
+	0% { -webkit-transform: scale(2); opacity: 0;  }
+	100% { -webkit-transform: scale(1); opacity: 1;   }
+}
+@-moz-keyframes aixeena1-11 {
+	0% { -moz-transform:  scale(2); opacity: 0;  }
+	100% { -moz-transform:  scale(1); opacity: 1; }
+}
+@keyframes aixeena1-11 {
+	0% { transform:  scale(2); opacity: 0;  }
+	100% { transform:  scale(1) ; opacity: 1; }
+}
+

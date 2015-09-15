@@ -1,0 +1,24 @@
+/* Effect 11: Super scaled doble */
+
+.md-effect-12.md-modal.md-show {
+
+	-webkit-animation: aixeena1-12 .5s forwards ease;
+	-moz-animation: aixeena1-12 .5s forwards ease;
+	animation: aixeena1-12 .5s forwards ease;
+
+}
+
+
+@-webkit-keyframes aixeena1-12 {
+	0% { -webkit-transform: scale(3); opacity: 0;  }
+	100% { -webkit-transform: scale(1); opacity: 1;   }
+}
+@-moz-keyframes aixeena1-12 {
+	0% { -moz-transform:  scale(3); opacity: 0;  }
+	100% { -moz-transform:  scale(1); opacity: 1; }
+}
+@keyframes aixeena1-12 {
+	0% { transform:  scale(3); opacity: 0;  }
+	100% { transform:  scale(1) ; opacity: 1; }
+}
+

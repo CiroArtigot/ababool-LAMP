@@ -1,0 +1,25 @@
+
+
+.md-effectoff-9.md-modal.md-show-out {
+
+	-webkit-animation: aixeena2-9 .5s forwards ease-out;
+	-moz-animation: aixeena2-9 .5s forwards ease-out;
+	animation: aixeena2-9 .5s forwards ease-out;
+	opacity: 0;
+
+}
+
+@-webkit-keyframes aixeena2-9 {
+	0% { opacity: 1;  }
+	100% {  opacity: 0;   }
+}
+@-moz-keyframes aixeena2-9 {
+	0% { opacity: 1;  }
+	100% { opacity:0; }
+}
+@keyframes aixeena2-9 {
+	0% {  opacity: 1;  }
+	100% {  opacity: 0; }
+}
+
+

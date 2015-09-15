@@ -1,0 +1,24 @@
+/* Effect 3: Slide from the bottom */
+
+
+.md-effect-3.md-modal.md-show {
+
+	-webkit-animation: aixeena1-3 .5s forwards ease;
+	-moz-animation: aixeena1-3 .5s forwards ease;
+	animation: aixeena1-3 .5s forwards ease;
+}
+
+@-webkit-keyframes aixeena1-3 {
+	0% { -webkit-transform: translateY(140%); opacity: 0;  }
+	100% { -webkit-transform: translateY(0); opacity: 1;   }
+}
+@-moz-keyframes aixeena1-3 {
+	0% { -moz-transform:  translateY(140%); opacity: 0;  }
+	100% { -moz-transform:  translateY(0); opacity: 1; }
+}
+@keyframes aixeena1-3 {
+	0% { transform:  translateY(140%); opacity: 0;  }
+	100% { transform:  translateY(0); opacity: 1; }
+}
+
+

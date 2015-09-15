@@ -1,0 +1,29 @@
+	
+	
+	.theme-4 .md-content{
+		background-color:#FFFFFF;
+		color:#333;
+	}
+	
+	.overlay-theme-4 {
+		background-color: #fff;
+		opacity: 1;
+		filter: alpha(opacity = 1);
+	}
+
+	.theme-4 .md-content-content a{
+		text-decoration: underline;
+		color:#006699;
+	}
+	.theme-4 .md-content-content a:hover{
+		text-decoration: none;
+		color:red;
+	}
+	.theme-4 .md-content h3 {
+		background-color: #fff;
+		color:#000;
+	}
+	.theme-4 .md-buttons {
+		background-color: #fff;
+		color:#000;
+	}

@@ -1,0 +1,38 @@
+<images>
+    <image>
+        <id>1</id>
+        <file>img/galleries/image01.jpg</file>
+        <thumb>img/galleries/thumbs/image02.jpg</thumb>
+        <name>Imagen 1</name>
+        <description>Descripcion 1</description>
+		<active>1</active>
+    </image>
+	
+	 <image>
+        <id>1</id>
+        <file>img/galleries/image02.jpg</file>
+        <thumb>img/galleries/thumbs/image02.jpg</thumb>
+        <name>Imagen 2</name>
+        <description>Descripcion 2</description>
+		<active>1</active>
+    </image>
+	
+	 <image>
+        <id>1</id>
+        <file>img/galleries/image03.jpg</file>
+        <thumb>img/galleries/thumbs/image03.jpg</thumb>
+        <name>Imagen 3</name>
+        <description>Descripcion 3</description>
+		<active>1</active>
+    </image>
+	
+	 <image>
+        <id>1</id>
+        <file>img/galleries/image04.jpg</file>
+        <thumb>img/galleries/thumbs/image04.jpg</thumb>
+        <name>Imagen 1</name>
+        <description>Descripcion 1</description>
+		<active>1</active>
+    </image>
+
+</images>

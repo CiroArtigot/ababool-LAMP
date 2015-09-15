@@ -1,0 +1,20 @@
+	/* message no script */
+	.pt-message {
+		display: none;
+		position: absolute;
+		z-index: 99999;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: #da475c;
+		color: #fff;
+		text-align: center;
+	}
+	.pt-message p {
+		margin: 0;
+		line-height: 60px;
+		font-size: 26px;
+	}
+	.no-cssanimations .pt-message {
+		display: block;
+	}

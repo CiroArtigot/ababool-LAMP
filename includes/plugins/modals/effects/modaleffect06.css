@@ -1,0 +1,42 @@
+/* Effect 6: side fall */
+
+
+.md-effect-6.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;	
+}
+.md-effect-6.md-modal .md-content{
+	
+		-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: translate(30%) translateZ(600px) rotate(10deg);
+	
+}
+
+.md-effect-6.md-modal.md-show {
+
+
+
+	-webkit-animation: aixeena1-6 0.3s ease-in;
+	-moz-animation: aixeena1-6  0.3s ease-in;
+	animation: aixeena1-6  0.3s ease-in;
+
+
+}
+
+@-webkit-keyframes aixeena1-6 {
+	0% { -webkit-transform: translate(30%) translateZ(600px) rotate(10deg); opacity: 0; -webkit-animation-timing-function: ease-in;}
+	100% { -webkit-transform: translate(0%) translateZ(0) rotate(0deg); opacity: 1; }
+}
+@-moz-keyframes aixeena1-6 {
+	0% { -moz-transform: translate(30%) translateZ(600px) rotate(10deg); opacity: 0; -moz-animation-timing-function: ease-in;}
+	100% { -moz-transform: translate(0%) translateZ(0) rotate(0deg); opacity: 1; }
+}
+@keyframes aixeena1-6 {
+	0% { transform: translate(30%) translateZ(600px) rotate(10deg); opacity: 0; animation-timing-function: ease-in;}
+	100% { transform: translate(0%) translateZ(0) rotate(0deg); opacity: 1; }
+}

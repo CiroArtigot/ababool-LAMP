@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration
+	type="configuration"
+	version="1.0.0">
+	<name>Ababool configuration file</name>
+	<author>Ciro Artigot</author>
+	<creationDate>June 2013</creationDate>
+	<copyright>Copyright (C) 2014 Ciro Artigot. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>info@aixeena.org</authorEmail>
+	<authorUrl>http://aixeena.org</authorUrl>
+	<version>1.0.2</version>
+	<description>Configuration file for Ababool</description>
+	
+		<general>
+			<title>Ababool</title>
+			<show_errors>1</show_errors>
+			<lang>en</lang>
+			<metadescription>Ababool, an open source tool for creating nice web applications</metadescription>
+			<preloader>1</preloader>
+			<ogimage>img/ababool.jpg</ogimage>
+		</general>
+		
+		<pages>
+			<page>
+				<active>1</active>
+				<id>home</id>
+				<dir>pages/home.php</dir>
+				<name>Home</name>
+				<method>0</method>
+				<principal>0</principal>
+				<color>#fff</color>
+				<idToTheRight>what</idToTheRight>
+				<idToGoDown>license</idToGoDown>
+        		<navigator>1</navigator>
+				<linkrelnext>what</linkrelnext>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>55</ineffect>
+				<ogimage>img/ababool.jpg</ogimage>
+			</page>
+			
+			<page>
+				<id>what</id>
+				<active>1</active>
+				<dir>pages/features.php</dir>
+				<description>Ababool is a free and open source tool, developed with PHP5, HTML5, CSS3 and jQuery, for creating nice and functionals single web page applications.</description>
+				<name>What</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToTheRight>why</idToTheRight>
+        		<idToTheLeft>home</idToTheLeft>
+        		<navigator>1</navigator>
+				<linkrelnext>why</linkrelnext>
+				<principal>1</principal>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>44</ineffect>
+				<ogimage>img/ababool.jpg</ogimage>
+				<!--<loadpages>faqs, faqs2, faqs3</loadpages>-->
+			</page>
+			
+			<page>
+				<id>why</id>
+				<active>1</active>
+				<dir>pages/why.php</dir>
+				<description>Looking for simplicity, efficiency and presence, Ababol is thought to develop different, simple and functional sites.</description>
+				<name>Why</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToTheRight>wow</idToTheRight>
+        		<idToTheLeft>what</idToTheLeft>
+        		<navigator>1</navigator>
+				<linkrelnext>how</linkrelnext>
+				<principal>1</principal>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>15</ineffect>
+			</page>
+			
+			<page>
+				<id>wow</id>
+				<active>1</active>
+				<dir>pages/examples.php</dir>
+				<description>Ababool demos and ideas. Some interesting examples to see what we can do with.</description>
+				<name>Wow</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToTheRight>how</idToTheRight>
+        		<idToTheLeft>why</idToTheLeft>
+        		<navigator>1</navigator>
+				<linkrelnext>how</linkrelnext>
+				<principal>1</principal>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>18</ineffect>
+			</page>
+			
+			<page>
+				<id>how</id>
+				<active>1</active>
+				<dir>pages/howto.php</dir>
+				<description>Descripcion features</description>
+				<name>How</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToTheRight>with</idToTheRight>
+        		<idToTheLeft>wow</idToTheLeft>
+        		<navigator>1</navigator>
+				<linkrelnext>with</linkrelnext>
+				<principal>1</principal>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>20</ineffect>
+			</page>
+			
+			<page>
+				<id>with</id>
+				<active>1</active>
+				<dir>pages/forum.php</dir>
+				<description>Descripcion features</description>
+				<name>With</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToTheRight>start</idToTheRight>
+        		<idToTheLeft>how</idToTheLeft>
+        		<navigator>1</navigator>
+				<linkrelnext>download</linkrelnext>
+				<principal>1</principal>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>24</ineffect>
+			</page>		
+			
+			<page>
+				<id>start</id>
+				<active>1</active>
+				<dir>pages/download.php</dir>
+				<description>Descripcion features</description>
+				<name>Start</name>
+				<color>#fff</color>
+        		<idToTheLeft>with</idToTheLeft>
+        		<navigator>1</navigator>
+				<principal>1</principal>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>25</ineffect>
+			</page>					
+			
+			<page>
+				<id>license</id>
+				<active>1</active>
+				<dir>pages/license.php</dir>
+				<description>Ababool is free and open source: GNU General Public Licensed.</description>
+				<name>License</name>
+				<backgroundimage>img/cabra001.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToGoUp>home</idToGoUp>
+				<idToTheRight>greetings</idToTheRight>
+        		<navigator>1</navigator>
+				<linkrelnext>greetings</linkrelnext>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>43</ineffect>
+			</page>					
+
+			<page>
+				<id>greetings</id>
+				<active>1</active>
+				<dir>pages/greetings.php</dir>
+				<description>Descripcion features</description>
+				<name>Greetings</name>
+				<backgroundimage>img/donate01.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToTheRight>about</idToTheRight>
+        		<idToTheLeft>license</idToTheLeft>
+        		<navigator>1</navigator>
+				<linkrelnext>about</linkrelnext>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>63</ineffect>
+			</page>					
+
+			<page>
+				<id>about</id>
+				<active>1</active>
+				<dir>pages/about.php</dir>
+				<description>Ababool is a personal project of Ciro Artigot.</description>
+				<name>About</name>
+				<idToGoUp>home</idToGoUp>
+				<idToTheRight>contact</idToTheRight>
+        		<idToTheLeft>greetings</idToTheLeft>
+        		<navigator>1</navigator>
+				<linkrelnext>contact</linkrelnext>
+				<fadeeffect>0</fadeeffect>
+				<ineffect>67</ineffect>
+			</page>	
+			
+				<page>
+				<id>faqs</id>
+				<active>0</active>
+				<dir>pages/faqs.php</dir>
+				<description>Descripcion features</description>
+				<name>FAQS</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToTheRight></idToTheRight>
+        		<idToTheLeft></idToTheLeft>
+				<idToGoDown></idToGoDown>
+        		<navigator>1</navigator>
+				<linkrelnext></linkrelnext>
+				<principal>1</principal>
+				<fadeeffect>0</fadeeffect>
+			</page>
+			
+			<page>
+				<id>feedbacks</id>
+				<method>1</method>
+				<active>1</active>
+				<dir>pages/feedbacks.php</dir>
+				<description>Feedbacks. Your opinion, suggestions and feedback will be very much appreciated.</description>
+				<name>Feedbacks</name>
+				<backgroundimage>img/spider001.jpg</backgroundimage>
+				<color>#000</color>
+			</page>				
+			
+			<page>
+				<id>transitions</id>
+				<active>1</active>
+				<dir>pages/transitions.php</dir>
+				<description>Descripcion features</description>
+				<name>Transitions</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToGoUp>wow</idToGoUp>
+        		<navigator>1</navigator>
+				<fadeeffect>0</fadeeffect>
+			</page>	
+			
+			<page>
+				<id>transitions2</id>
+				<active>1</active>
+				<dir>pages/transitions2.php</dir>
+				<description>Descripcion features</description>
+				<name>Transitions</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToGoUp>wow</idToGoUp>
+        		<navigator>1</navigator>
+				<fadeeffect>0</fadeeffect>
+			</page>	
+			
+			<page>
+				<id>ajax1</id>
+				<active>1</active>
+				<method>1</method>
+				<dir>pages/ajax.php</dir>
+				<description>Descripcion features</description>
+				<name>Ajax 1</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToGoUp>wow</idToGoUp>
+        		<navigator>1</navigator>
+				<fadeeffect>0</fadeeffect>
+				<auto_unload>0</auto_unload>
+			</page>	
+			
+			<page>
+				<id>ajax2</id>
+				<active>1</active>
+				<method>1</method>
+				<dir>pages/ajax2.php</dir>
+				<description>Descripcion features</description>
+				<name>Ajax 2</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<color>#fff</color>
+				<idToGoUp>wow</idToGoUp>
+        		<navigator>1</navigator>
+				<fadeeffect>0</fadeeffect>
+				<auto_unload>1</auto_unload>
+			</page>	
+			
+			<page>
+				<active>1</active>
+				<id>map</id>
+				<name>Map</name>
+				<method>1</method>
+				<dir>pages/map.php</dir>
+				<pageloadjs>includes/js/ajaxmap.js</pageloadjs>
+				<principal>0</principal>
+				<scroll>0</scroll>
+				<fadeeffect>0</fadeeffect>
+				<navigator>1</navigator>
+				<idToGoUp>wow</idToGoUp>
+			</page>
+			
+			<page>
+				<active>1</active>
+				<id>gallery</id>
+				<method>1</method>
+				<dir>pages/gallery.php</dir>
+				<name>Gallery</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<navigator>1</navigator>
+				<idToGoUp>wow</idToGoUp>
+			</page>
+			
+	
+			
+			<page>
+				<active>1</active>
+				<id>video</id>
+				<method>1</method>
+				<dir>pages/video.php</dir>
+				<name>Video</name>
+				<backgroundimage>img/sea.jpg</backgroundimage>
+				<navigator>1</navigator>
+				<idToGoUp>wow</idToGoUp>
+			</page>
+			
+			<page>
+				<active>1</active>
+				<id>youtube2</id>
+				<method>1</method>
+				<dir>pages/youtube.php</dir>
+				<name>Youtube</name>
+				<backgroundimage>img/ababool03.jpg</backgroundimage>
+				<navigator>1</navigator>
+				<idToGoUp>wow</idToGoUp>
+				<auto_unload>1</auto_unload>
+			</page>
+			
+			
+			<page>
+				<active>1</active>
+				<id>contact</id>
+				<method>1</method>
+				<dir>pages/contact.php</dir>
+				<pageloadjs>includes/js/contacto.js</pageloadjs>
+				<name>Contact</name>	
+				<principal>0</principal>
+				<auto_unload>0</auto_unload>
+				<navigator>1</navigator>
+				<idToTheLeft>about</idToTheLeft>
+				<desactivateurl>1</desactivateurl>
+				<fadeeffect>0</fadeeffect>
+			</page>
+			
+		
+			
+				
+			
+		</pages>
+		
+		<menus>
+			<menu>
+				<id>mainmenu</id>
+				<active>1</active>
+				<items>
+					<item>
+						<page>home</page>
+						<parent>0</parent>
+						<name>Ababool</name>
+						<level>1</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>what</page>
+						<parent>home</parent>
+						<name>Whats</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>why</page>
+						<parent>home</parent>
+						<name>Why</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>how</page>
+						<parent>home</parent>
+						<name>How</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>wow</page>
+						<parent>home</parent>
+						<name>Wow</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					
+					<item>
+						<page>transitions</page>
+						<parent>wow</parent>
+						<name>Transitions</name>
+						<level>3</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>transitions2</page>
+						<parent>wow</parent>
+						<name>Transitions</name>
+						<level>3</level>
+						<active>1</active>
+					</item>
+					
+					<item>
+						<page>ajax1</page>
+						<parent>wow</parent>
+						<name>Ajax demo 1</name>
+						<level>3</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>ajax2</page>
+						<parent>wow</parent>
+						<name>Ajax demo 2</name>
+						<level>3</level>
+						<active>1</active>
+					</item>
+					
+					<item>
+						<page>map</page>
+						<parent>wow</parent>
+						<name>Map</name>
+						<level>3</level>
+						<active>1</active>
+					</item>
+					
+					<item>
+						<page>gallery</page>
+						<parent>wow</parent>
+						<name>Gallery</name>
+						<level>3</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>faqs</page>
+						<parent>home</parent>
+						<name>Faqs</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>blog</page>
+						<parent>home</parent>
+						<name>Blog</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>forum</page>
+						<parent>home</parent>
+						<name>Forum</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>download</page>
+						<parent>home</parent>
+						<name>Download</name>
+						<level>2</level>
+						<active>1</active>
+					</item>
+					<item>
+						<page>license</page>
+						<parent>home</parent>
+						<name>License</name>
+						<level>2</level>
+						<active>1</active>
+					</item>					
+					<item>
+						<page>greetings</page>
+						<parent>home</parent>
+						<name>Greetings</name>
+						<level>2</level>
+						<active>1</active>
+					</item>					
+					<item>
+						<page>about</page>
+						<parent>home</parent>
+						<name>About</name>
+						<level>2</level>
+						<active>1</active>
+					</item>					
+					<item>
+						<page>contact</page>
+						<parent>home</parent>
+						<name>Contact</name>
+						<level>2</level>
+						<active>1</active>
+					</item>										
+				</items>
+			</menu>
+			<menu>
+				<id>footermenu</id>
+				<active>1</active>
+				<items>
+					<item>
+						<page>license</page>
+						<parent>0</parent>
+						<name>License</name>
+						<level>1</level>
+						<active>1</active>
+					</item>					
+					<item>
+						<page>greetings</page>
+						<parent>0</parent>
+						<name>Greetings</name>
+						<level>1</level>
+						<active>1</active>
+					</item>					
+					<item>
+						<page>about</page>
+						<parent>0</parent>
+						<name>About</name>
+						<level>1</level>
+						<active>1</active>
+					</item>					
+					<item>
+						<page>contact</page>
+						<parent>0</parent>
+						<name>Contact</name>
+						<level>1</level>
+						<active>1</active>
+					</item>					
+				</items>
+			</menu>
+		</menus>
+		
+		<modals>
+		    <modal>
+				<id>modal1</id>
+				<dir>pages/modals/modal1.php</dir>
+				<name>Ababool Pages</name>
+				<method>0</method>
+				<effect>4</effect>
+				<effectoff>6</effectoff>
+				<theme>1</theme>
+				<disableoverlay>0</disableoverlay>
+				<centermodal>1</centermodal>
+				<fullwidth></fullwidth>
+				<modaltop></modaltop>
+        		<modalbottom></modalbottom>
+        		<modalleft></modalleft>
+        		<modalright></modalright>
+        		<minheight></minheight>
+        		<minwidth></minwidth>
+        		<fixedheight>400</fixedheight>
+        		<fixedwidth>600</fixedwidth>
+        		<sizemode></sizemode>
+		    </modal>
+		    <modal>
+				<id>modal2</id>
+				<dir>pages/modals/modal2.php</dir>
+				<name>Modal example</name>
+				<method>0</method>
+				<effect>4</effect>
+				<effectoff>6</effectoff>
+				<theme>1</theme>
+				<disableoverlay>0</disableoverlay>
+				<centermodal>1</centermodal>
+				<fullwidth></fullwidth>
+				<modaltop></modaltop>
+        		<modalbottom></modalbottom>
+        		<modalleft></modalleft>
+        		<modalright></modalright>
+        		<minheight></minheight>
+        		<minwidth></minwidth>
+        		<fixedheight>300</fixedheight>
+        		<fixedwidth>400</fixedwidth>
+        		<sizemode></sizemode>
+		    </modal>
+		</modals>
+
+        <galleries>
+		    <gallerie>
+		        <id>gallery1</id>
+		        <file>img/galleries/gallerie1.xml</file>
+		        <name>Galeria 1</name>
+				<active>1</active>
+		    </gallerie>
+		    <gallerie>
+		        <id>gallery2</id>
+		        <file>img/galleries/gallerie2.xml</file>
+		        <name>Galeria 2</name>
+				<active>1</active>
+		    </gallerie>			
+		</galleries>
+		
+		<modules>
+			<module>
+				<id>breadcrumbs</id>
+				<file>includes/modules/breadcrumbs/default.php</file>
+				<params>	
+					<menu>mainmenu</menu>
+					<showlast>1</showlast>
+				</params>
+				<active>1</active>
+			</module>
+			
+	        <module>
+			    <id>gallery</id>
+				<active>1</active>
+				<styles>
+					<style>modules/gallery/gallery.css</style>	
+				</styles>
+				<scripts>
+					<script>modules/gallery/gallery.js</script>
+				</scripts>
+				<file>includes/modules/gallery/default.php</file>
+			</module>
+			
+			<module>
+			    <id>menu</id>
+				<active>1</active>
+				<styles>
+					<style>modules/menu/style.css</style>	
+				</styles>
+				<scripts>
+					<script>modules/menu/code.js</script>
+				</scripts>
+				<file>includes/modules/menu/default.php</file>
+			</module>
+			
+		</modules>
+
+		<plugins>
+		
+			<plugin>
+				<name>modernize</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/modernize/modernize.css</style>	
+				</styles>
+				<scripts>
+					<script>plugins/modernize/modernize.js</script>
+				</scripts>
+				<includes>
+					<include>plugins/modernize/default.php</include>
+				</includes>
+			</plugin>
+			
+			<plugin>
+				<name>jquery</name>
+				<active>1</active>
+				<scripts>
+					<script>plugins/jquery/jquery.js</script>
+				</scripts>
+			</plugin>
+			
+			<plugin>
+				<name>prelaoder</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/preloader/preloader.css</style>	
+				</styles>
+				<scripts>
+					<script>plugins/preloader/preloader.js</script>
+				</scripts>
+			</plugin>
+			
+			<plugin>
+				<name>System</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/system/system.css</style>
+					<style>plugins/system/transitions.css</style>	
+				</styles>
+				<scripts>
+					<script>plugins/system/ababool.js</script>
+				</scripts>
+			</plugin>
+
+			<plugin>
+				<name>Ababool theme</name>
+				<active>1</active>
+				<bodyclass>ababooltheme</bodyclass>
+				<googlefonts>
+					<font>Open+Sans+Condensed:300,700</font>
+					<font>Open+Sans:700,300</font>
+				</googlefonts>
+				<styles>
+					<style>plugins/theme-ababool/ababool_theme.css</style>	
+				</styles>
+			</plugin>
+			
+			<plugin>
+				<name>google Analytics</name>
+				<active>1</active>
+				<scripts>
+					<script>plugins/google-analytics/code.js</script>
+				</scripts>
+			</plugin>
+			
+			<plugin>
+				<name>Custom Scrollbar</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/custom-scrollbar/jquery.mCustomScrollbar.css</style>	
+				</styles>
+				<scripts>
+					<script>plugins/custom-scrollbar/customscrollbar.js</script>
+				</scripts>
+				<version>1</version>
+			</plugin>
+			
+			<plugin>
+				<name>Database Connection</name>
+				<active>0</active>
+				<includes>
+					<include>plugins/db/dbinfo.php</include>
+				</includes>
+				<version>1</version>
+			</plugin>
+			
+			<plugin>
+				<name>Bootstrap</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/bootstrap/css/bootstrap.css</style>	
+				</styles>
+				<version>1</version>
+			</plugin>
+			
+			<plugin>
+			    <id>topmenu</id>
+				<name>Top Menu</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/automenu/automenu.css</style>	
+					<style>plugins/automenu/brandlogo.css</style>	
+				</styles>
+				<includes>
+					<include>plugins/automenu/automenu.php</include>
+				</includes>
+				<params>
+        			<showbrand>1</showbrand>
+        			<brand>Ababool</brand>
+        			<brandhome>1</brandhome>
+        			<brandlink>index.php</brandlink>
+        			<brandimage>0</brandimage>
+        			<showhomeicon>1</showhomeicon>
+        			<showgoback>1</showgoback>
+				</params>
+				<version>1</version>
+			</plugin>
+			
+			<plugin>
+				<name>Navigator</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/navigator/navigator.css</style>	
+				</styles>
+				<includes>
+					<include>plugins/navigator/navigator.php</include>
+				</includes>
+			</plugin>
+			
+			<plugin>
+				<id>footer</id>
+				<name>Footer</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/footer/footers.css</style>	
+				</styles>
+				<includes>
+					<include>plugins/footer/footer.php</include>
+				</includes>
+				<pageevents>
+					<include>plugins/footer/pageevent.php</include>
+				</pageevents>
+				<params>
+        			<html>pages/html/footer.php</html>
+					<hideonsmall>1</hideonsmall>
+				</params>
+				<version>1</version>
+			</plugin>
+			
+			<plugin>
+				<name>TouchSwipe</name>
+				<active>0</active>
+				<scripts>
+					<script>plugins/TouchSwipe/jquery.touchSwipe.min.js</script>
+				</scripts>
+				<version>1</version>
+			</plugin>
+			
+			<plugin>
+			    <id>modals</id>
+				<name>Modals</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/modals/modals.css</style>	
+					<style>plugins/modals/themes/theme1.css</style>	
+					<style>plugins/modals/themes/theme3.css</style>	
+					<style>plugins/modals/effects/modaleffect1.css</style>
+					<style>plugins/modals/effects/modaleffectoff1.css</style>
+					<style>plugins/modals/effects/modaleffect4.css</style>
+					<style>plugins/modals/effects/modaleffectoff6.css</style>
+				</styles>
+				<scripts>
+					<script>plugins/modals/modals.js</script>
+				</scripts>
+				<includes>
+					<include>plugins/modals/default.php</include>
+				</includes>
+				<version>1</version>
+			</plugin>
+			
+	        <plugin>
+			    <id>lightbox</id>
+				<name>Lightbox</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/lightbox/css/lightbox.css</style>	
+				</styles>
+				<scripts>
+					<script>plugins/lightbox/js/lightbox.js</script>
+				</scripts>
+				<version>1</version>
+			</plugin>
+			
+			<plugin>
+			    <id>pagevideo</id>
+				<name>Page video</name>
+				<active>1</active>
+				<styles>
+					<style>plugins/pagevideo/style.css</style>	
+				</styles>
+				<scripts>
+					<script>plugins/pagevideo/code.js</script>
+				</scripts>
+			</plugin>
+
+		</plugins>
+			
+</configuration>	

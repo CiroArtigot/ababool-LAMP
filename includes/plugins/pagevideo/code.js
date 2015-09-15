@@ -1,0 +1,3 @@
+
+// pagevideo plugin for Ababool by @ciroartigot
+$(document).ready(function(){oldinpage=$.fn.inpage,$.fn.inpage=function(o){oldinpage(o);var n=o.find(".backgroundvideo");n.each(function(){var o=jQuery(this);try{o[0].play(),console.log("ok")}catch(n){console.log("error")}})},oldoutpage=$.fn.outpage,$.fn.outpage=function(o){oldoutpage(o);var n=o.find(".backgroundvideo");n.each(function(){var o=jQuery(this);try{o[0].pause()}catch(n){console.log("error")}})}});
