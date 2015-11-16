@@ -5,7 +5,6 @@ RewriteEngine On
 ########## Begin - RewriteBase
 # Uncomment following line if your webserver's URL
 # is not directly related to physical file paths.
-# Update Your Joomla! Directory (just / for root)
 
 # RewriteBase /
 
